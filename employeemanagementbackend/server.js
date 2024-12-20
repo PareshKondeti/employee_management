@@ -12,7 +12,8 @@ dotenv.config();
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors({ origin: "https://employee-management-1-kfxs.onrender.com" }));
+
 
 // Connect to MongoDB using Mongoose
 mongoose
