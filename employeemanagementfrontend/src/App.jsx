@@ -7,7 +7,7 @@ const App = () => {
   const [formData, setFormData] = useState({ name: "", phoneno: "", panCard: "" });
   const [updateId, setUpdateId] = useState(null);
   const [error, setError] = useState("");
-  const API_URL = "https://employee-management-thy6.onrender.com";
+  const API_URL = "https://employee-management-thy6.onrender.com/employees";
 
   const fetchEmployees = async () => {
     try {
