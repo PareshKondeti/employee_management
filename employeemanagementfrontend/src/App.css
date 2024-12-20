@@ -1,0 +1,163 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .app-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0077b6;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  /* Form Styles */
+  .employee-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .form-input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border: 2px solid #0077b6;
+  }
+  
+  .form-button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #005f8c;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  /* List Styles */
+  .list-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .employee-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .employee-item {
+    background-color: #f1f8ff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-item button {
+    background-color: #0077b6;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .employee-item button:hover {
+    background-color: #005f8c;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+  }
+  
+  .delete-button:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Update Button Styling */
+  .update-button {
+    background-color: #5bc0de;
+  }
+  
+  .update-button:hover {
+    background-color: #31b0d5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .app-container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .app-title {
+      font-size: 28px;
+    }
+  
+    .form-input {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .form-button {
+      padding: 12px;
+      font-size: 14px;
+    }
+  
+    .employee-item {
+      padding: 12px;
+    }
+  }
+  
