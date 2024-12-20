@@ -12,6 +12,7 @@ dotenv.config();
 
 // Middleware
 app.use(bodyParser.json());
+app.use(cors());
 app.use(cors({ origin: "https://employee-management-1-kfxs.onrender.com" }));
 
 
